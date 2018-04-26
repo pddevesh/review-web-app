@@ -1,0 +1,12 @@
+<% include ./partial/header.ejs %>
+
+<div class="container form" style="width: 30%; margin:30px auto">
+<h2>Login</h2>
+<form action="/login" method="post">
+    <input type="text" name="username" placeholder="User Name" class="form-control">
+    <input type="password" name="password" placeholder="Password" class="form-control">
+    <button type="submit" class="form-control btn btn-primary">Submit</button>
+</form>
+</div>
+
+<% include ./partial/footer.ejs %>
